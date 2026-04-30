@@ -1,3 +1,4 @@
+````md
 # AI_for_BNPL
 
 Hệ thống phân tích rủi ro và tư vấn trả góp BNPL bằng AI.
@@ -6,25 +7,16 @@ Hệ thống phân tích rủi ro và tư vấn trả góp BNPL bằng AI.
 
 # 📌 Giới thiệu dự án
 
-Đây là dự án xây dựng hệ thống AI hỗ trợ phân tích rủi ro tài chính và đề xuất phương án trả góp cho mô hình **Buy Now Pay Later (BNPL)**. Dự án được xây dựng để phục vụ cho đồ án cuối kì của môn học Giải pháp AI trong kinh doanh và quản lí thuộc chương trình đào tạo của Trường Đại học Kinh tế - Luật.
+Đây là dự án xây dựng hệ thống AI hỗ trợ phân tích rủi ro tài chính và đề xuất phương án trả góp cho mô hình **Buy Now Pay Later (BNPL)**.
 
-
+Dự án được xây dựng để phục vụ cho đồ án cuối kỳ của môn học **Giải pháp AI trong Kinh doanh và Quản lý** thuộc chương trình đào tạo của Trường Đại học Kinh tế - Luật.
 
 Dự án được thực hiện bởi nhóm sinh viên đến từ hai ngành:
 
-* Hệ thống Thông tin Quản lý (mã ngành: 406)
-* Kinh tế Đối ngoại (mã ngành: 402)
+- Hệ thống Thông tin Quản lý (mã ngành: 406)
+- Kinh tế Đối ngoại (mã ngành: 402)
 
-thuộc Trường Đại học Kinh tế - Luật.
-
-Hệ thống sử dụng Machine Learning để dự đoán khả năng thanh toán của khách hàng dựa trên các thông tin tài chính, hành vi giao dịch và dữ liệu tín dụng.
-
-Mục tiêu của dự án là:
-
-* Hỗ trợ doanh nghiệp giảm thiểu rủi ro vỡ nợ
-* Cá nhân hóa phương án trả góp
-* Nâng cao trải nghiệm người dùng
-* Ứng dụng AI vào bài toán tài chính thực tế
+Hệ thống sử dụng Machine Learning để dự đoán khả năng thanh toán của khách hàng dựa trên dữ liệu tài chính, hành vi giao dịch và dữ liệu tín dụng.
 
 ---
 
@@ -32,11 +24,11 @@ Mục tiêu của dự án là:
 
 Hệ thống được xây dựng nhằm:
 
-* Dự đoán xác suất khách hàng trễ hạn hoặc vỡ nợ
-* Đề xuất phương án trả góp phù hợp từ 1 → 12 tháng
-* Hỗ trợ doanh nghiệp BNPL tối ưu quản trị rủi ro tín dụng
-* Tăng khả năng chuyển đổi giao dịch
-* Hỗ trợ ra quyết định dựa trên dữ liệu và AI
+- Dự đoán xác suất khách hàng trễ hạn hoặc vỡ nợ
+- Đề xuất phương án trả góp phù hợp từ 1 → 12 tháng
+- Hỗ trợ doanh nghiệp BNPL tối ưu quản trị rủi ro tín dụng
+- Tăng khả năng chuyển đổi giao dịch
+- Hỗ trợ ra quyết định dựa trên dữ liệu và AI
 
 ---
 
@@ -46,11 +38,11 @@ Hệ thống được xây dựng nhằm:
 
 Hệ thống sử dụng mô hình Machine Learning để dự đoán khả năng thanh toán của khách hàng dựa trên:
 
-* Thu nhập
-* Điểm tín dụng
-* Giá trị đơn hàng
-* Hành vi sử dụng hệ thống
-* Thiết bị và trình duyệt sử dụng
+- Thu nhập
+- Điểm tín dụng
+- Giá trị đơn hàng
+- Hành vi sử dụng hệ thống
+- Thiết bị và trình duyệt sử dụng
 
 ## 💳 Đề xuất trả góp
 
@@ -60,18 +52,18 @@ Hệ thống mô phỏng nhiều phương án trả góp khác nhau và lựa ch
 
 Ứng dụng được xây dựng bằng PyQt6 gồm:
 
-* Đăng nhập / Đăng ký
-* Nhập thông tin cá nhân
-* Phân tích dữ liệu
-* Hiển thị kết quả AI
+- Đăng nhập / Đăng ký
+- Nhập thông tin cá nhân
+- Phân tích dữ liệu
+- Hiển thị kết quả AI
 
 ## 🗄️ Quản lý dữ liệu
 
 MongoDB được sử dụng để:
 
-* Lưu tài khoản người dùng
-* Lưu dữ liệu khách hàng
-* Lưu kết quả dự đoán AI
+- Lưu tài khoản người dùng
+- Lưu dữ liệu khách hàng
+- Lưu kết quả dự đoán AI
 
 ---
 
@@ -79,19 +71,19 @@ MongoDB được sử dụng để:
 
 ## Backend
 
-* Python
-* MongoDB
+- Python
+- MongoDB
 
 ## AI / Machine Learning
 
-* LightGBM
-* Scikit-learn
-* Pandas
-* NumPy
+- LightGBM
+- Scikit-learn
+- Pandas
+- NumPy
 
 ## Frontend
 
-* PyQt6
+- PyQt6
 
 ---
 
@@ -99,58 +91,70 @@ MongoDB được sử dụng để:
 
 Dataset được sử dụng cho dự án là bộ dữ liệu BNPL từ Kaggle với khoảng:
 
-* 50.000 dòng dữ liệu
-* 13 biến dữ liệu
+- 50.000 dòng dữ liệu
+- 13 biến dữ liệu
 
 Dữ liệu bao gồm:
 
-* Thông tin khách hàng
-* Thu nhập hàng năm
-* Điểm tín dụng
-* Giá trị đơn hàng
-* Hành vi thanh toán
-* Thiết bị sử dụng
-* Trình duyệt
-* Nhà cung cấp BNPL
+- Thông tin khách hàng
+- Thu nhập hàng năm
+- Điểm tín dụng
+- Giá trị đơn hàng
+- Hành vi thanh toán
+- Thiết bị sử dụng
+- Trình duyệt
+- Nhà cung cấp BNPL
 
 Bài toán được xây dựng dưới dạng:
 
-* Binary Classification
-* Dự đoán:
+- Binary Classification
+- Dự đoán:
+  - Thanh toán đúng hạn
+  - Trễ hạn / Vỡ nợ
 
-  * Thanh toán đúng hạn
-  * Trễ hạn / Vỡ nợ
+---
+
+# 🖥️ Frontend
+
+## Frontend (1)
+![Frontend 1](docs/1.png)
+
+## Frontend (2)
+![Frontend 2](docs/2.png)
+
+## Frontend (3)
+![Frontend 3](docs/3.png)
+
+## Frontend (4)
+![Frontend 4](docs/4.png)
 
 ---
 
 # 🏗️ Workflow hệ thống
 
 ```text
-Người dùng đăng nhập tài khoản → front-end(1) → MongoDB (kiểm tra ở bảng user) nếu có thì tới front-end (2)
+Người dùng đăng nhập tài khoản
           ↓
-      đăng nhập 
+Frontend Login
           ↓
-     front-end (3)
+MongoDB kiểm tra tài khoản
           ↓
-    nhập thông tin
-      khách hàng
+Frontend Dashboard
           ↓
-lưu vào bảng information
+Nhập thông tin khách hàng
           ↓
-      front-end (4)
+Lưu vào MongoDB
           ↓
-nhập số tiền muốn tư vần số kì BNPL
+Nhập yêu cầu BNPL
           ↓
-truy cập bảng information trong MongoDB
+Model AI phân tích dữ liệu
           ↓
-đưa cho model phân tích
+Xuất kết quả dự đoán
           ↓
-model xuất kết quả
+Lưu lịch sử xuống MongoDB
           ↓
-lưu kết quả xuống MongoDB
-          ↓
-hiện kết quả lên front_end (4)
-```
+Hiển thị kết quả lên giao diện
+````
 
 ---
 
@@ -158,7 +162,7 @@ hiện kết quả lên front_end (4)
 
 Dự án sử dụng mô hình **LightGBM Classifier** cho bài toán phân loại nhị phân.
 
-## Các bước chính:
+## Các bước chính
 
 * Tiền xử lý dữ liệu
 * Chuẩn hóa dữ liệu
@@ -168,7 +172,7 @@ Dự án sử dụng mô hình **LightGBM Classifier** cho bài toán phân lo�
 * Huấn luyện mô hình
 * Đánh giá ROC-AUC
 
-## Các đặc trưng quan trọng:
+## Các đặc trưng quan trọng
 
 * Annual Income
 * Credit Score
@@ -176,7 +180,7 @@ Dự án sử dụng mô hình **LightGBM Classifier** cho bài toán phân lo�
 * Monthly Payment
 * Payment to Income Ratio
 
-## Metric đánh giá:
+## Metric đánh giá
 
 * ROC-AUC
 
@@ -206,9 +210,6 @@ https://colab.research.google.com/drive/1Gq38EFp9xxxqEKMIGc79CJiqxJCU4XJY?usp=sh
 # 📂 Cấu trúc thư mục
 
 ```bash
-# 📂 Cấu trúc thư mục
-
-```bash
 AI_for_BNPL/
 │
 ├── core/
@@ -224,6 +225,13 @@ AI_for_BNPL/
 │   ├── login_ui.py
 │   └── register_ui.py
 │
+├── docs/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   └── AI_for_BNPL_Report.pdf
+│
 ├── config.txt
 ├── main.py
 ├── model.pkl
@@ -231,19 +239,21 @@ AI_for_BNPL/
 └── test.py
 ```
 
-## 📌 Mô tả thư mục
+---
 
-### `core/`
+# 📌 Mô tả thư mục
+
+## `core/`
 
 Chứa toàn bộ phần xử lý chính của hệ thống:
 
 * Xử lý đăng nhập
-* Kết nối database
+* Kết nối MongoDB
 * Xử lý model AI
 * Dự đoán rủi ro
 * Logic nghiệp vụ BNPL
 
-### `ui/`
+## `ui/`
 
 Chứa giao diện người dùng được xây dựng bằng PyQt6:
 
@@ -252,22 +262,38 @@ Chứa giao diện người dùng được xây dựng bằng PyQt6:
 * Nhập thông tin khách hàng
 * Phân tích và hiển thị kết quả AI
 
-### `model.pkl`
+## `docs/`
+
+Chứa:
+
+* Hình ảnh giao diện
+* Báo cáo đồ án
+* Tài liệu liên quan
+
+## `model.pkl`
 
 File mô hình Machine Learning đã được huấn luyện.
 
-### `main.py`
+## `main.py`
 
 File khởi chạy chính của ứng dụng.
 
-### `config.txt`
+## `config.txt`
 
 Lưu các cấu hình cần thiết cho hệ thống.
 
-### `test.py`
+## `test.py`
 
 Dùng để kiểm thử hệ thống và mô hình AI.
 
+---
+
+---
+
+# ▶️ Run Project
+
+```bash
+python main.py
 ```
 
 ---
@@ -299,20 +325,23 @@ Trong tương lai, dự án có thể mở rộng:
 
 # 📚 Tài liệu tham khảo
 
-[1] Zhi Zheng Kang, Sin Yin Teh, Samuel Yong Guang Tan và Wei Chien Ng,
-"Loan Default Prediction Using Machine Learning Algorithms", 2025
-https://journals.mmupress.com/index.php/jiwe/article/view/1680
+1. Zhi Zheng Kang, Sin Yin Teh, Samuel Yong Guang Tan và Wei Chien Ng
+   *Loan Default Prediction Using Machine Learning Algorithms*, 2025
+   https://journals.mmupress.com/index.php/jiwe/article/view/1680
 
-[2] Sakshi Udavant,
-"Buy Now, Pay Later (BNPL): What It Is, How It Works, Pros and Cons", 2025
-https://www.investopedia.com/buy-now-pay-later-5182291
+2. Sakshi Udavant
+   *Buy Now, Pay Later (BNPL): What It Is, How It Works, Pros and Cons*, 2025
+   https://www.investopedia.com/buy-now-pay-later-5182291
 
-[3] Kexin Zhao, Bo Wang, Cuiying Zhao, Tongyao Wan,
-"Multi-Treatment-DML: Causal Estimation for Multi-Dimensional Continuous Treatments with Monotonicity Constraints in Personal Loan Risk Optimization", 2025
-https://arxiv.org/pdf/2508.02183
+3. Kexin Zhao, Bo Wang, Cuiying Zhao, Tongyao Wan
+   *Multi-Treatment-DML: Causal Estimation for Multi-Dimensional Continuous Treatments with Monotonicity Constraints in Personal Loan Risk Optimization*, 2025
+   https://arxiv.org/pdf/2508.02183
 
 ---
 
 # 📜 Ghi chú
 
 Dự án được phát triển phục vụ mục đích học tập, nghiên cứu và ứng dụng AI trong lĩnh vực tài chính số và hệ thống BNPL.
+
+```
+```
